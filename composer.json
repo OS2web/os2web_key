@@ -14,7 +14,7 @@
         "ext-openssl": "*",
         "drupal/core": "^9 || ^10 || ^11",
         "drupal/key": "^1.17",
-        "itk-dev/serviceplatformen": "^1.6 || dev-f/drupal11",
+        "itk-dev/serviceplatformen": "^1.6",
         "itk-dev/vault": "^0.1"
     },
     "require-dev": {
