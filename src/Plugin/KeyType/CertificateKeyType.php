@@ -43,7 +43,7 @@ class CertificateKeyType extends KeyTypeBase implements KeyPluginFormInterface {
     array $configuration,
     $plugin_id,
     $plugin_definition,
-    private readonly KeyHelper $certificateHelper,
+    protected readonly KeyHelper $certificateHelper,
   ) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
   }

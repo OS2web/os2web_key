@@ -54,7 +54,7 @@ final class AzureKeyVaultKeyProvider extends KeyProviderBase implements KeyPlugi
     array $configuration,
     string $plugin_id,
     $plugin_definition,
-    private readonly LoggerInterface $logger,
+    protected readonly LoggerInterface $logger,
   ) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
   }

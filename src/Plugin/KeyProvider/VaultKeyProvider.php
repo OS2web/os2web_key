@@ -61,9 +61,9 @@ final class VaultKeyProvider extends KeyProviderBase implements KeyPluginFormInt
     $plugin_id,
     $plugin_definition,
     LoggerChannelInterface $logger,
-    private readonly ClientInterface $httpClient,
-    private readonly CacheInterface $cache,
-    private readonly KeyHelper $keyHelper,
+    protected readonly ClientInterface $httpClient,
+    protected readonly CacheInterface $cache,
+    protected readonly KeyHelper $keyHelper,
   ) {
     $this->setLogger($logger);
     parent::__construct($configuration, $plugin_id, $plugin_definition);
