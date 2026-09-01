@@ -154,11 +154,6 @@ final class VaultKeyProvider extends KeyProviderBase implements KeyPluginFormInt
       throw $e;
     }
 
-    $type = $key->getKeyType();
-    if (!($type instanceof CertificateKeyType)) {
-      throw $this->keyHelper->createSslRuntimeException(sprintf('Invalid key type: %s', $type::class), $key);
-    }
-
     return $secret->value;
   }
 
