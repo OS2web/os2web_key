@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+* [PR-8](https://github.com/OS2web/os2web_key/pull/8)
+  Removed superfluous (and erroneous) key type check
 * [PR-7](https://github.com/OS2web/os2web_key/pull/7)
   Drupal 11 compatibility
 * [PR-6](https://github.com/OS2web/os2web_key/pull/6)
